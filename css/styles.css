@@ -181,9 +181,6 @@ img {
   transform: scaleX(1);
 }
 
-..navigation::after {
-}
-
 .navigation:hover::after,
 .navigation:focus::after {
   transform: scaleX(1);
