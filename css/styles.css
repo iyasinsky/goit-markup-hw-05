@@ -504,7 +504,7 @@ img {
   fill: var(--primary-color);
   background-color: rgba(255, 255, 255, 0.1);
 
-  transition: fill 250ms var(--timing-function), background-color 250ms var(--timing-function);
+  transition: background-color 250ms var(--timing-function);
 }
 
 .join {
@@ -587,6 +587,7 @@ img {
 .portfolio-link {
   display: block;
   overflow: hidden;
+  transition: box-shadow 250ms var(--timing-function);
 }
 
 .portfolio-link:hover,
